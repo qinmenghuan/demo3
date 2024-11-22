@@ -1,9 +1,13 @@
+import Add from "./components/Add";
+import Greetings from "./components/Greetings";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <section>
-      <h1>Welcome To React world</h1>
-    </section>
+    <Fragment>
+      <Greetings/>
+      <Add/>
+    </Fragment>
   );
 }
 
